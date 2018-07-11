@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: u79LBDD/6+uO2LFwiI9mMb2owyTd8KcdEDiE06wzJGPjlXiNPJ97MFBsPtNFsYYEf5yuEWmriauhmryUGn8uySELkC/8RKCsEzlyXQcZc6IQcfCCwropTKf//EMvzW5EDUaestf3xwwUg9KTKdNrcRzm7RZQ4LktgA2C42IkVyHDdtIik/bmd2orQ0cPXSDDbDcP2OL/OdWG/4s+acMO2j8LJ40pk4/snxSgcRV7JEdI0oVAC5g3pyrgOoPJjmFohF7YgV2T4GMN9futkO46JiJ0Uht0ugm0GuiaknXhaaV1OBLy0EVu0L88MaflvufPPBfMkhTGhcIwrQCIfOatnco69CQchTkhamSC7rUUni6+ZQPyiWF5mat2jzL+s+5gGtSLPubgY4jup6aD7B/dkoXJH8qkmJKM0dXRIptpANk49YmZQP8re8mol4aonQ0QAax4k2Q/YotQbpceXspaKKGtg6dyUZ4J1YlyHkwm8lxqEreNSVw+UNEnXdwKr5AyCoK6aIMkXF8l59p32vHsethgu/Zo/diNHsdzTbfejF6qVwSRhdzLnu7sZ0O43xjF6ZdxDXQmkHgvXr0MTjRPgG/uwTejbayjvkSwwKFdCUYXT+Z1/vilXSf0Hoew5SA6ROgSA9Gin1AfPVcHjOKYZQgA43gz5X+isYT0QaGj9QM=
+  app: blogpost
+  on:
+    repo: tranpeter08/blogpost
